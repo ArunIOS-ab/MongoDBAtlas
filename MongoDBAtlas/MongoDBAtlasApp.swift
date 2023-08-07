@@ -8,7 +8,7 @@
 import SwiftUI
 import RealmSwift
 
-let realmApp = RealmSwift.App(id: "64c1d385c5b24a1503627507")
+let realmApp = RealmSwift.App(id: "APP_ID")
 
 @main
 struct MongoDBAtlasApp: SwiftUI.App {
