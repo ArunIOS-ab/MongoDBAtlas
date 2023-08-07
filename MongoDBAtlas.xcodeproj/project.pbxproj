@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96875A372A7209B500C442E9 /* MongoDBAtlasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96875A362A7209B500C442E9 /* MongoDBAtlasApp.swift */; };
+		96875A392A7209B500C442E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96875A382A7209B500C442E9 /* ContentView.swift */; };
+		96875A3B2A7209B700C442E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96875A3A2A7209B700C442E9 /* Assets.xcassets */; };
+		96875A3E2A7209B700C442E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96875A3D2A7209B700C442E9 /* Preview Assets.xcassets */; };
+		96875A482A7209B700C442E9 /* MongoDBAtlasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96875A472A7209B700C442E9 /* MongoDBAtlasTests.swift */; };
+		96875A522A7209B700C442E9 /* MongoDBAtlasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96875A512A7209B700C442E9 /* MongoDBAtlasUITests.swift */; };
+		96875A542A7209B700C442E9 /* MongoDBAtlasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96875A532A7209B700C442E9 /* MongoDBAtlasUITestsLaunchTests.swift */; };
+		96875A622A720C6C00C442E9 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 96875A612A720C6C00C442E9 /* Realm */; };
+		96875A642A720C6C00C442E9 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 96875A632A720C6C00C442E9 /* RealmSwift */; };
+		96875A662A7216A300C442E9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96875A652A7216A300C442E9 /* LoginView.swift */; };
+		96875A682A7216E000C442E9 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96875A672A7216E000C442E9 /* ChatsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96875A442A7209B700C442E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96875A2B2A7209B500C442E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96875A322A7209B500C442E9;
+			remoteInfo = MongoDBAtlas;
+		};
+		96875A4E2A7209B700C442E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96875A2B2A7209B500C442E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96875A322A7209B500C442E9;
+			remoteInfo = MongoDBAtlas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96875A332A7209B500C442E9 /* MongoDBAtlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MongoDBAtlas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96875A362A7209B500C442E9 /* MongoDBAtlasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoDBAtlasApp.swift; sourceTree = "<group>"; };
+		96875A382A7209B500C442E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96875A3A2A7209B700C442E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96875A3D2A7209B700C442E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96875A432A7209B700C442E9 /* MongoDBAtlasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MongoDBAtlasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96875A472A7209B700C442E9 /* MongoDBAtlasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoDBAtlasTests.swift; sourceTree = "<group>"; };
+		96875A4D2A7209B700C442E9 /* MongoDBAtlasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MongoDBAtlasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96875A512A7209B700C442E9 /* MongoDBAtlasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoDBAtlasUITests.swift; sourceTree = "<group>"; };
+		96875A532A7209B700C442E9 /* MongoDBAtlasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoDBAtlasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96875A652A7216A300C442E9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		96875A672A7216E000C442E9 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96875A302A7209B500C442E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96875A642A720C6C00C442E9 /* RealmSwift in Frameworks */,
+				96875A622A720C6C00C442E9 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96875A402A7209B700C442E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96875A4A2A7209B700C442E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96875A2A2A7209B500C442E9 = {
+			isa = PBXGroup;
+			children = (
+				96875A352A7209B500C442E9 /* MongoDBAtlas */,
+				96875A462A7209B700C442E9 /* MongoDBAtlasTests */,
+				96875A502A7209B700C442E9 /* MongoDBAtlasUITests */,
+				96875A342A7209B500C442E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96875A342A7209B500C442E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96875A332A7209B500C442E9 /* MongoDBAtlas.app */,
+				96875A432A7209B700C442E9 /* MongoDBAtlasTests.xctest */,
+				96875A4D2A7209B700C442E9 /* MongoDBAtlasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96875A352A7209B500C442E9 /* MongoDBAtlas */ = {
+			isa = PBXGroup;
+			children = (
+				96875A362A7209B500C442E9 /* MongoDBAtlasApp.swift */,
+				96875A382A7209B500C442E9 /* ContentView.swift */,
+				96875A3A2A7209B700C442E9 /* Assets.xcassets */,
+				96875A3C2A7209B700C442E9 /* Preview Content */,
+				96875A652A7216A300C442E9 /* LoginView.swift */,
+				96875A672A7216E000C442E9 /* ChatsView.swift */,
+			);
+			path = MongoDBAtlas;
+			sourceTree = "<group>";
+		};
+		96875A3C2A7209B700C442E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				96875A3D2A7209B700C442E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		96875A462A7209B700C442E9 /* MongoDBAtlasTests */ = {
+			isa = PBXGroup;
+			children = (
+				96875A472A7209B700C442E9 /* MongoDBAtlasTests.swift */,
+			);
+			path = MongoDBAtlasTests;
+			sourceTree = "<group>";
+		};
+		96875A502A7209B700C442E9 /* MongoDBAtlasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96875A512A7209B700C442E9 /* MongoDBAtlasUITests.swift */,
+				96875A532A7209B700C442E9 /* MongoDBAtlasUITestsLaunchTests.swift */,
+			);
+			path = MongoDBAtlasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96875A322A7209B500C442E9 /* MongoDBAtlas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96875A572A7209B700C442E9 /* Build configuration list for PBXNativeTarget "MongoDBAtlas" */;
+			buildPhases = (
+				96875A2F2A7209B500C442E9 /* Sources */,
+				96875A302A7209B500C442E9 /* Frameworks */,
+				96875A312A7209B500C442E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MongoDBAtlas;
+			packageProductDependencies = (
+				96875A612A720C6C00C442E9 /* Realm */,
+				96875A632A720C6C00C442E9 /* RealmSwift */,
+			);
+			productName = MongoDBAtlas;
+			productReference = 96875A332A7209B500C442E9 /* MongoDBAtlas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96875A422A7209B700C442E9 /* MongoDBAtlasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96875A5A2A7209B700C442E9 /* Build configuration list for PBXNativeTarget "MongoDBAtlasTests" */;
+			buildPhases = (
+				96875A3F2A7209B700C442E9 /* Sources */,
+				96875A402A7209B700C442E9 /* Frameworks */,
+				96875A412A7209B700C442E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96875A452A7209B700C442E9 /* PBXTargetDependency */,
+			);
+			name = MongoDBAtlasTests;
+			productName = MongoDBAtlasTests;
+			productReference = 96875A432A7209B700C442E9 /* MongoDBAtlasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96875A4C2A7209B700C442E9 /* MongoDBAtlasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96875A5D2A7209B700C442E9 /* Build configuration list for PBXNativeTarget "MongoDBAtlasUITests" */;
+			buildPhases = (
+				96875A492A7209B700C442E9 /* Sources */,
+				96875A4A2A7209B700C442E9 /* Frameworks */,
+				96875A4B2A7209B700C442E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96875A4F2A7209B700C442E9 /* PBXTargetDependency */,
+			);
+			name = MongoDBAtlasUITests;
+			productName = MongoDBAtlasUITests;
+			productReference = 96875A4D2A7209B700C442E9 /* MongoDBAtlasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96875A2B2A7209B500C442E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					96875A322A7209B500C442E9 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					96875A422A7209B700C442E9 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 96875A322A7209B500C442E9;
+					};
+					96875A4C2A7209B700C442E9 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 96875A322A7209B500C442E9;
+					};
+				};
+			};
+			buildConfigurationList = 96875A2E2A7209B500C442E9 /* Build configuration list for PBXProject "MongoDBAtlas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96875A2A2A7209B500C442E9;
+			packageReferences = (
+				96875A602A720C6C00C442E9 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
+			productRefGroup = 96875A342A7209B500C442E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96875A322A7209B500C442E9 /* MongoDBAtlas */,
+				96875A422A7209B700C442E9 /* MongoDBAtlasTests */,
+				96875A4C2A7209B700C442E9 /* MongoDBAtlasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96875A312A7209B500C442E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96875A3E2A7209B700C442E9 /* Preview Assets.xcassets in Resources */,
+				96875A3B2A7209B700C442E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96875A412A7209B700C442E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96875A4B2A7209B700C442E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96875A2F2A7209B500C442E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96875A682A7216E000C442E9 /* ChatsView.swift in Sources */,
+				96875A662A7216A300C442E9 /* LoginView.swift in Sources */,
+				96875A392A7209B500C442E9 /* ContentView.swift in Sources */,
+				96875A372A7209B500C442E9 /* MongoDBAtlasApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96875A3F2A7209B700C442E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96875A482A7209B700C442E9 /* MongoDBAtlasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96875A492A7209B700C442E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96875A522A7209B700C442E9 /* MongoDBAtlasUITests.swift in Sources */,
+				96875A542A7209B700C442E9 /* MongoDBAtlasUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96875A452A7209B700C442E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96875A322A7209B500C442E9 /* MongoDBAtlas */;
+			targetProxy = 96875A442A7209B700C442E9 /* PBXContainerItemProxy */;
+		};
+		96875A4F2A7209B700C442E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96875A322A7209B500C442E9 /* MongoDBAtlas */;
+			targetProxy = 96875A4E2A7209B700C442E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		96875A552A7209B700C442E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96875A562A7209B700C442E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96875A582A7209B700C442E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MongoDBAtlas/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MongoDBAtlas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96875A592A7209B700C442E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MongoDBAtlas/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MongoDBAtlas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96875A5B2A7209B700C442E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MongoDBAtlasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MongoDBAtlas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MongoDBAtlas";
+			};
+			name = Debug;
+		};
+		96875A5C2A7209B700C442E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MongoDBAtlasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MongoDBAtlas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MongoDBAtlas";
+			};
+			name = Release;
+		};
+		96875A5E2A7209B700C442E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MongoDBAtlasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MongoDBAtlas;
+			};
+			name = Debug;
+		};
+		96875A5F2A7209B700C442E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MongoDBAtlasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MongoDBAtlas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96875A2E2A7209B500C442E9 /* Build configuration list for PBXProject "MongoDBAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96875A552A7209B700C442E9 /* Debug */,
+				96875A562A7209B700C442E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96875A572A7209B700C442E9 /* Build configuration list for PBXNativeTarget "MongoDBAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96875A582A7209B700C442E9 /* Debug */,
+				96875A592A7209B700C442E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96875A5A2A7209B700C442E9 /* Build configuration list for PBXNativeTarget "MongoDBAtlasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96875A5B2A7209B700C442E9 /* Debug */,
+				96875A5C2A7209B700C442E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96875A5D2A7209B700C442E9 /* Build configuration list for PBXNativeTarget "MongoDBAtlasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96875A5E2A7209B700C442E9 /* Debug */,
+				96875A5F2A7209B700C442E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		96875A602A720C6C00C442E9 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		96875A612A720C6C00C442E9 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96875A602A720C6C00C442E9 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		96875A632A720C6C00C442E9 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96875A602A720C6C00C442E9 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 96875A2B2A7209B500C442E9 /* Project object */;
+}
